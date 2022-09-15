@@ -24,15 +24,95 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.keypad{
+  display:grid;
+  grid-template-columns: repeat(4, 1fr );
+  margin-left:13px;
+
+}
+input{
+  width: 100%;
+  font-size: 20px;
+  padding: 10px 5px ;
+}
+button{
+  padding: 10px;
+  align-items: center;
+  border: none;
+  font-size:1.3rem;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+button:hover:nth-child(1){
+  background-color:red;
+  color: white;
+}
+button:hover:nth-child(2){
+  background-color:rgba(255, 0, 0, 0.548);
+  color: white;
+}
+button:hover:nth-child(3){
+  background-color:rgb(24, 154, 214);
+  color: white;
+}
+button:hover:nth-child(4){
+  background-color:rgb(24, 214, 176);
+  color: white;
+}
+button:hover:nth-child(5){
+  background-color:rgb(24, 214, 78);
+  color: white;
+}
+button:hover:nth-child(6){
+  background-color:rgb(103, 214, 24);
+  color: white;
+}
+button:hover:nth-child(7){
+  background-color:rgb(62, 24, 214);
+  color: white;
+}
+button:hover:nth-child(8){
+  background-color:rgb(24, 94, 214);
+  color: white;
+}
+button:hover:nth-child(9){
+  background-color:rgb(138, 24, 214);
+  color: white;
+}
+button:hover:nth-child(10){
+  background-color:rgb(214, 24, 147);
+  color: white;
+}
+button:hover:nth-child(11){
+  background-color:rgb(214, 24, 81);
+  color: white;
+}
+button:hover:nth-child(12){
+  background-color:rgb(214, 24, 49);
+  color: white;
+}
+button:hover:nth-child(13){
+  background-color:rgb(223, 137, 148);
+  color: white;
+}
+button:hover:nth-child(14){
+  background-color:rgb(106, 179, 225);
+  color: white;
+}
+button:hover:nth-child(15){
+  background-color:rgb(125, 221, 133);
+  color: white;
+}
+button:hover:nth-child(16){
+  background-color:rgb(129, 144, 206);
+  color: white;
+}
+button:hover:nth-child(17){
+  background-color:rgb(125, 221, 133);
+  color: white;
+}
+button:hover:nth-child(18){
+  background-color:rgba(231, 215, 43, 0.914);
+  color: white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
